@@ -1,0 +1,11 @@
+.git
+.next
+node_modules
+coverage
+out
+.env
+.env.local
+.env.production
+*.log
+Dockerfile.local
+newproject7_postgres_data

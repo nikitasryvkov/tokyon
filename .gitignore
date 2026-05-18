@@ -1,0 +1,10 @@
+.next
+node_modules
+coverage
+out
+.env
+.env.local
+.env.production
+dist
+*.log
+Dockerfile.local
