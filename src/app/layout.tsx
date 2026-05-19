@@ -16,6 +16,12 @@ export const metadata: Metadata = {
   },
   description:
     "TOKYON TECH разрабатывает сайты, web-приложения, backend, API, интеграции с PostgreSQL, админки и техническую поддержку для бизнеса.",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: "/favicon.svg",
+    apple: "/apple-touch-icon.svg"
+  },
+  manifest: "/site.webmanifest",
   alternates: {
     canonical: "/"
   },

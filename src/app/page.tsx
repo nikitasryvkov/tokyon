@@ -154,7 +154,6 @@ export default async function HomePage() {
           <h2>Напишите удобным способом, и мы предложим понятный план разработки</h2>
           <p>
             Можно прийти с идеей, текущим сайтом, списком задач или готовым техническим заданием.
-            Связь происходит только через email или Telegram, без форм и сбора данных на сайте.
           </p>
           <div className="hero-actions">
             <ButtonLink href={site.emailHref}>Написать на почту</ButtonLink>
@@ -169,15 +168,11 @@ export default async function HomePage() {
       <Section
         eyebrow="Контакты"
         title="Готовы обсудить проект"
-        text="На сайте нет форм обратной связи, регистрации, подписки, онлайн-чата и трекеров. Для связи используйте прямые ссылки."
+        text="Напишите на почту или в Telegram, чтобы обсудить проект, уточнить стоимость работ или задать вопрос по услугам."
       >
         <div className="content-split">
           <div className="cta-band">
             <h2>Свяжитесь напрямую</h2>
-            <p>
-              Нажатие на кнопку открывает ваш почтовый клиент или Telegram. Сайт не показывает
-              форму, не принимает сообщения и не сохраняет данные посетителей.
-            </p>
             <div className="hero-actions">
               <ButtonLink href={site.emailHref}>Связаться по email</ButtonLink>
               <ButtonLink href={site.telegramHref} variant="ghost">

@@ -6,8 +6,7 @@ import { site } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Контакты",
-  description:
-    "Контакты TOKYON TECH: прямые ссылки на email и Telegram без форм обратной связи и сбора данных на сайте.",
+  description: "Контакты TOKYON TECH: email, Telegram и реквизиты для связи.",
   alternates: { canonical: "/contact" }
 };
 
@@ -17,10 +16,10 @@ export default function ContactPage() {
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">Контакты</p>
-          <h1>Связь без форм и сбора данных на сайте</h1>
+          <h1>Контакты для связи</h1>
           <p>
-            На сайте нет полей ввода, регистрации, подписки, онлайн-чата и callback-виджетов. Для
-            связи используйте прямую ссылку на email или Telegram.
+            Напишите на почту или в Telegram, чтобы обсудить проект, уточнить стоимость работ или
+            задать вопрос по услугам.
           </p>
           <div className="hero-actions">
             <ButtonLink href={site.emailHref}>
@@ -37,7 +36,6 @@ export default function ContactPage() {
       <Section
         eyebrow="Официальные контакты"
         title="Контакты и реквизиты"
-        text="Передача сведений при обращении по email или Telegram происходит по инициативе пользователя во внешнем канале связи, а не через форму сайта."
       >
         <div className="contact-panel">
           <p>{site.legalName}</p>

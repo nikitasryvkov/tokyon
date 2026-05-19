@@ -1,0 +1,19 @@
+{
+  "name": "TOKYON TECH",
+  "short_name": "TEKYON",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0f141b",
+  "background_color": "#0f141b",
+  "display": "standalone"
+}
