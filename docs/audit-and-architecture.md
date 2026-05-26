@@ -8,7 +8,7 @@
 
 - Статические страницы услуг, тарифов, FAQ и юридических документов.
 - Обычные навигационные ссылки.
-- Прямые ссылки `mailto:hello@tekyon.ru` и `https://t.me/czzttt`.
+- Прямая ссылка `mailto:hello@tekyon.ru`.
 - Текстовые блоки с реквизитами.
 
 ## Удаленные элементы риска
@@ -17,7 +17,7 @@
 - Endpoint `/api/contact`.
 - Административная панель и auth-cookie.
 - Prisma, PostgreSQL, миграции и таблица `contact_requests`.
-- Email/Telegram notification backend.
+- Email notification backend.
 - Валидация и rate limiting для форм.
 - `localStorage` для переключения темы.
 

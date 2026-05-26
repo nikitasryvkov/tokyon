@@ -68,8 +68,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       addressCountry: "RU"
     },
     taxID: site.inn,
-    identifier: site.ogrnip,
-    sameAs: [site.telegramHref]
+    identifier: site.ogrnip
   };
 
   return (

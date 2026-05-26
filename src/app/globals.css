@@ -94,7 +94,6 @@ svg {
 }
 
 .header-inner,
-.header-actions,
 .logo,
 .main-nav,
 .card-actions,
@@ -151,10 +150,6 @@ svg {
 
 .main-nav a {
   padding: 8px 0;
-}
-
-.header-actions {
-  gap: 10px;
 }
 
 .button {
@@ -730,10 +725,6 @@ h3 {
 
   .visual-metrics {
     margin-top: 14px;
-  }
-
-  .header-telegram {
-    display: none;
   }
 
   .cta-band {

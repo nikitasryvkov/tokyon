@@ -1,7 +1,5 @@
 import Link from "next/link";
-import { MessageCircle } from "lucide-react";
 import { navItems, site } from "@/lib/content";
-import { ButtonLink } from "@/components/ButtonLink";
 
 export function Header() {
   return (
@@ -22,13 +20,6 @@ export function Header() {
             </Link>
           ))}
         </nav>
-
-        <div className="header-actions">
-          <ButtonLink href={site.telegramHref} variant="ghost" className="header-telegram">
-            <MessageCircle aria-hidden size={18} />
-            Telegram
-          </ButtonLink>
-        </div>
       </div>
     </header>
   );

@@ -1,4 +1,4 @@
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { ButtonLink } from "@/components/ButtonLink";
 import { FaqList } from "@/components/FaqList";
 import { JsonLd } from "@/components/JsonLd";
@@ -49,10 +49,6 @@ export default async function HomePage() {
               </ButtonLink>
               <ButtonLink href="/services" variant="secondary">
                 Посмотреть услуги
-              </ButtonLink>
-              <ButtonLink href={site.telegramHref} variant="ghost">
-                <MessageCircle aria-hidden size={18} />
-                Написать в Telegram
               </ButtonLink>
             </div>
             <div className="trust-strip" aria-label="Факторы доверия">
@@ -157,10 +153,6 @@ export default async function HomePage() {
           </p>
           <div className="hero-actions">
             <ButtonLink href={site.emailHref}>Написать на почту</ButtonLink>
-            <ButtonLink href={site.telegramHref} variant="ghost">
-              <MessageCircle aria-hidden size={18} />
-              Написать в Telegram
-            </ButtonLink>
           </div>
         </div>
       </Section>
@@ -168,17 +160,13 @@ export default async function HomePage() {
       <Section
         eyebrow="Контакты"
         title="Готовы обсудить проект"
-        text="Напишите на почту или в Telegram, чтобы обсудить проект, уточнить стоимость работ или задать вопрос по услугам."
+        text="Напишите на почту, чтобы обсудить проект, уточнить стоимость работ или задать вопрос по услугам."
       >
         <div className="content-split">
           <div className="cta-band">
             <h2>Свяжитесь напрямую</h2>
             <div className="hero-actions">
               <ButtonLink href={site.emailHref}>Связаться по email</ButtonLink>
-              <ButtonLink href={site.telegramHref} variant="ghost">
-                <MessageCircle aria-hidden size={18} />
-                Обсудить проект в Telegram
-              </ButtonLink>
             </div>
           </div>
           <aside className="contact-panel">
@@ -188,9 +176,6 @@ export default async function HomePage() {
             <p>ОГРНИП {site.ogrnip}</p>
             <p>
               <a href={site.emailHref}>{site.email}</a>
-            </p>
-            <p>
-              <a href={site.telegramHref}>{site.telegramLabel}</a>
             </p>
           </aside>
         </div>

@@ -44,9 +44,6 @@ export default function AboutPage() {
           <p>
             <a href={site.emailHref}>{site.email}</a>
           </p>
-          <p>
-            <a href={site.telegramHref}>{site.telegramLabel}</a>
-          </p>
         </div>
       </Section>
     </>

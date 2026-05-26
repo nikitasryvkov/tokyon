@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Mail, MessageCircle } from "lucide-react";
+import { Mail } from "lucide-react";
 import { ButtonLink } from "@/components/ButtonLink";
 import { Section } from "@/components/Section";
 import { site } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Контакты",
-  description: "Контакты TOKYON TECH: email, Telegram и реквизиты для связи.",
+  description: "Контакты TOKYON TECH: email и реквизиты для связи.",
   alternates: { canonical: "/contact" }
 };
 
@@ -18,17 +18,13 @@ export default function ContactPage() {
           <p className="eyebrow">Контакты</p>
           <h1>Контакты для связи</h1>
           <p>
-            Напишите на почту или в Telegram, чтобы обсудить проект, уточнить стоимость работ или
-            задать вопрос по услугам.
+            Напишите на почту, чтобы обсудить проект, уточнить стоимость работ или задать вопрос
+            по услугам.
           </p>
           <div className="hero-actions">
             <ButtonLink href={site.emailHref}>
               <Mail aria-hidden size={18} />
               Написать на почту
-            </ButtonLink>
-            <ButtonLink href={site.telegramHref} variant="ghost">
-              <MessageCircle aria-hidden size={18} />
-              Написать в Telegram
             </ButtonLink>
           </div>
         </div>
@@ -44,9 +40,6 @@ export default function ContactPage() {
           <p>{site.address}</p>
           <p>
             Email: <a href={site.emailHref}>{site.email}</a>
-          </p>
-          <p>
-            Telegram: <a href={site.telegramHref}>{site.telegramLabel}</a>
           </p>
         </div>
       </Section>

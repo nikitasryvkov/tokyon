@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, MessageCircle } from "lucide-react";
+import { Mail } from "lucide-react";
 import { legalDocuments, navItems, site } from "@/lib/content";
 
 export function Footer() {
@@ -47,10 +47,6 @@ export function Footer() {
           <a href={site.emailHref}>
             <Mail aria-hidden size={16} />
             {site.email}
-          </a>
-          <a href={site.telegramHref}>
-            <MessageCircle aria-hidden size={16} />
-            {site.telegramLabel}
           </a>
           <span>{site.legalName}</span>
           <span>ИНН {site.inn}</span>

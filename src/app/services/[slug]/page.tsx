@@ -64,9 +64,6 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           <p>{service.description}</p>
           <div className="hero-actions">
             <ButtonLink href={site.emailHref}>Связаться по email</ButtonLink>
-            <ButtonLink href={site.telegramHref} variant="ghost">
-              Написать в Telegram
-            </ButtonLink>
             <ButtonLink href="/services" variant="secondary">
               Все услуги
             </ButtonLink>

@@ -9,7 +9,6 @@ import {
   ShieldCheck
 } from "lucide-react";
 import { ButtonLink } from "@/components/ButtonLink";
-import { site } from "@/lib/content";
 
 type ServiceCardProps = {
   service: {
@@ -56,9 +55,6 @@ export function ServiceCard({ service }: ServiceCardProps) {
       <div className="card-actions">
         <ButtonLink href={`/services/${service.slug}`} variant="secondary">
           Подробнее
-        </ButtonLink>
-        <ButtonLink href={site.telegramHref} variant="ghost">
-          Написать в Telegram
         </ButtonLink>
       </div>
     </article>

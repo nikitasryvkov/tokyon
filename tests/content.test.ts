@@ -14,7 +14,7 @@ describe("site content", () => {
   });
 
   it("uses only direct public contact links", () => {
+    expect(site.email).toBe("hello@tekyon.ru");
     expect(site.emailHref).toBe("mailto:hello@tekyon.ru");
-    expect(site.telegramHref).toBe("https://t.me/czzttt");
   });
 });
